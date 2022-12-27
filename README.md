@@ -1,4 +1,5 @@
-#completed tasks
+## Completed Tasks
+
 1. added all the missing API's
 2. added tests for grading API
 3. All the tests have been passed ( 11 old + 2 new )
@@ -34,9 +35,11 @@ bash run.sh
 python -m pytest -vvv -s tests/
 
 # for test coverage report
-# python -m pytest --cov
+python -m pytest --cov
 
 # for generating report in html format
-# python -m pytest tests --cov --cov-report=html  
-# open htmlcov/index.html
+python -m pytest tests --cov --cov-report=html  
+
+# for opening the report in the browser
+open htmlcov/index.html
 ```
